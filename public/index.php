@@ -1,6 +1,14 @@
 <?php
 
+use App\config\Config;
+use App\PageTitle;
+use FastRoute\Dispatcher;
+use FastRoute\RouteCollector;
+use function FastRoute\simpleDispatcher;
+
 require __DIR__ . "/../vendor/autoload.php";
+
+$config = new Config();
 
 // Получаем URI, очищаем его от лишних символов (а-ля ?foo=bar) и декодируем.
 $uri = $_SERVER['REQUEST_URI'];
@@ -12,9 +20,9 @@ if (false !== $pos = strpos($uri, '?')) {
 $uri = rawurldecode($uri);
 
 // Маршруты.
-$dispatcher = \FastRoute\simpleDispatcher(function (\FastRoute\RouteCollector $r) use ($uri) {
+$dispatcher = simpleDispatcher(function (RouteCollector $r) use ($uri) {
 
-	$r->addRoute('GET', '/', 'installation');
+	$r->addRoute('GET', '/', 'releases');
 
 	// Маршрут добавляется автоматически на основе переданного URI (чтобы не прописывать все нужные значения вручную).
 	if ($uri !== "/") {
@@ -27,14 +35,14 @@ $routeInfo = $dispatcher->dispatch($_SERVER['REQUEST_METHOD'], $uri);
 
 switch ($routeInfo[0]) {
 
-	case \FastRoute\Dispatcher::NOT_FOUND:
+	case Dispatcher::NOT_FOUND:
 
 		// 404
 		echo "Page not found";
 
 		break;
 
-	case \FastRoute\Dispatcher::METHOD_NOT_ALLOWED:
+	case Dispatcher::METHOD_NOT_ALLOWED:
 
 		// 405
 		$allowedMethods = $routeInfo[1];
@@ -42,14 +50,14 @@ switch ($routeInfo[0]) {
 
 		break;
 
-	case \FastRoute\Dispatcher::FOUND:
+	case Dispatcher::FOUND:
 
 		$templateName = $routeInfo[1];
-//		$vars = $routeInfo[2];
 
 		try {
 
 			$smarty = new Smarty();
+			$pageTitle = new PageTitle();
 
 			$smarty->setConfigDir(__DIR__ . "/../app/config");
 			$smarty->setTemplateDir(__DIR__ . "/../app/templates");
@@ -57,6 +65,9 @@ switch ($routeInfo[0]) {
 			$smarty->setCompileDir(__DIR__ . "/../smarty/templates_c");
 
 			$smarty->assign('name', $templateName);
+			$smarty->assign('title', $pageTitle->getByTemplateName($templateName, "Laravel 8.x"));
+			$smarty->assign('fixed_navigation', $config->fixedNavigation);
+			$smarty->assign('show_translated_with', $config->showTranslatedWith);
 
 			$smarty->display("index.tpl");
 

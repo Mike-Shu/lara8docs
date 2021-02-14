@@ -1,10 +1,11 @@
 {* Navigation bar *}
 
 {$_uri = $uri|default:"installation"}
+{$_fixed_navigation = $fixed_navigation|default:false}
 
 <aside class="fixed top-0 bottom-0 left-0 z-20 h-full w-16 flex flex-col bg-gradient-to-b from-gray-100 to-white transition-all duration-300 overflow-hidden lg:sticky lg:w-80 lg:flex-shrink-0 lg:flex lg:justify-end lg:items-end 2xl:max-w-lg 2xl:w-full">
 
-    <div class="relative min-h-0 flex-1 flex flex-col xl:w-80">
+    <div class="relative min-h-0 flex-1 flex flex-col xl:w-80"{if $_fixed_navigation} style="position: fixed !important; top: 0;"{/if}>
 
         <a href="/" class="flex items-center py-8 px-4 lg:px-8 xl:px-16">
             <img class="w-8 h-8 flex-shrink-0 transition-all duration-300 lg:w-12 lg:h-12" src="img/logomark.min.svg">
@@ -61,7 +62,7 @@
                             </ul>
                         </li>
                         <li>
-                            <h2>Копать глубже</h2>
+                            <h2>Погружаясь глубже</h2>
                             <ul>
                                 <li><a href="artisan">Консоль Artisan</a></li>
                                 <li><a href="broadcasting">Вещание</a></li>
