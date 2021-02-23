@@ -87,7 +87,7 @@
                             <ul>
                                 <li><a href="authentication">Аутентификация <sub>Authentication</sub></a></li>
                                 <li><a href="authorization">Авторизация <sub>Authorization</sub></a></li>
-                                <li><a href="verification">Подтверждение по элетронной почте <sub>Email verification</sub></a></li>
+                                <li><a href="verification">Подтверждение по email <sub>Email verification</sub></a></li>
                                 <li><a href="encryption">Шифрование <sub>Encryption</sub></a></li>
                                 <li><a href="hashing">Хеширование <sub>Hashing</sub></a></li>
                                 <li><a href="passwords">Сброс пароля <sub>Password reset</sub></a></li>
