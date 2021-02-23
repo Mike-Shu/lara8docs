@@ -1,4 +1,4 @@
-<h1>Примечания к выпуску</h1>
+<h1>Примечания к выпуску <sup>Release notes</sup></h1>
 <ul>
     <li><a href="releases#versioning-scheme">Схема управления версиями</a>
         <ul>

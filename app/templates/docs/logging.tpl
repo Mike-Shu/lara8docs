@@ -497,7 +497,7 @@ Log<span class="token punctuation">:</span><span class="token punctuation">:</sp
 <h4 id="monolog-formatters"><a href="#monolog-formatters">Форматеры монологов</a></h4>
 <p>При использовании <code>monolog</code> драйвера Monolog <code>LineFormatter</code> будет использоваться как средство
     форматирования по умолчанию. Однако вы можете настроить тип средства форматирования, передаваемого обработчику,
-    используя параметры конфигурации <code>formatter</code> и <code>formatter_with</code> :</p>
+    используя параметры конфигурации <code>formatter</code> и <code>formatter_with</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token single-quoted-string string">'browser'</span> <span
                 class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">[</span>
     <span class="token single-quoted-string string">'driver'</span> <span class="token operator">=</span><span
@@ -521,7 +521,7 @@ Log<span class="token punctuation">:</span><span class="token punctuation">:</sp
     <span class="token punctuation">]</span><span class="token punctuation">,</span>
 <span class="token punctuation">]</span><span class="token punctuation">,</span></code></pre>
 <p>Если вы используете обработчик Monolog, который может предоставлять свой собственный форматер, вы можете установить
-    значение параметра <code>formatter</code> конфигурации следующим образом <code>default</code> :</p>
+    значение параметра <code>formatter</code> конфигурации следующим образом <code>default</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token single-quoted-string string">'newrelic'</span> <span
                 class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">[</span>
     <span class="token single-quoted-string string">'driver'</span> <span class="token operator">=</span><span

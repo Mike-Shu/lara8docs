@@ -65,7 +65,7 @@
                 class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">previous</span><span
                 class="token punctuation">(</span><span class="token punctuation">)</span><span
                 class="token punctuation">;</span></code></pre>
-<p>К каждому из этих методов можно также получить доступ через <code>URL</code> <a href="facades">фасад</a> :</p>
+<p>К каждому из этих методов можно также получить доступ через <code>URL</code> <a href="facades">фасад</a>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">use</span> <span
                 class="token package">Illuminate<span class="token punctuation">\</span>Support<span
                     class="token punctuation">\</span>Facades<span class="token punctuation">\</span>URL</span><span
@@ -210,7 +210,7 @@
 <h4 id="validating-signed-route-requests"><a href="#validating-signed-route-requests">Проверка подписанных запросов
         маршрута</a></h4>
 <p>Чтобы убедиться, что входящий запрос имеет действительную подпись, вы должны вызвать <code>hasValidSignature</code>
-    метод для входящего <code>Request</code> :</p>
+    метод для входящего <code>Request</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">use</span> <span
                 class="token package">Illuminate<span class="token punctuation">\</span>Http<span
                     class="token punctuation">\</span>Request</span><span class="token punctuation">;</span>
@@ -233,7 +233,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
                 class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>В качестве альтернативы вы можете назначить <code>Illuminate\Routing\Middleware\ValidateSignature</code> <a
             href="middleware">промежуточное ПО</a> для маршрута. Если его еще нет, вы должны назначить этому
-    промежуточному программному обеспечению ключ в <code>routeMiddleware</code> массиве вашего ядра HTTP :</p>
+    промежуточному программному обеспечению ключ в <code>routeMiddleware</code> массиве вашего ядра HTTP:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token comment">/**
  * The application's route middleware.
  *

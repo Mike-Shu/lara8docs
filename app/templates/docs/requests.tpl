@@ -39,7 +39,7 @@
 <h3 id="accessing-the-request"><a href="#accessing-the-request">Доступ к запросу</a></h3>
 <p>Чтобы получить экземпляр текущего HTTP-запроса через внедрение зависимостей, вы должны ввести <code>Illuminate\Http\Request</code> класс
     в методе закрытия маршрута или контроллера. Экземпляр входящего запроса будет автоматически внедрен <a
-            href="container">сервисным контейнером</a> Laravel :</p>
+            href="container">сервисным контейнером</a> Laravel:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token php language-php"><span
                     class="token delimiter important">&lt;?php</span>
 
@@ -140,7 +140,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <p></p>
 <h4 id="retrieving-the-request-path"><a href="#retrieving-the-request-path">Получение пути запроса</a></h4>
 <p><code>path</code> Метод возвращает информацию о пути в запросе. Итак, если входящий запрос нацелен <code>http://example.com/foo/bar</code>,
-    <code>path</code> метод вернет <code>foo/bar</code> :</p>
+    <code>path</code> метод вернет <code>foo/bar</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token variable">$uri</span> <span
                 class="token operator">=</span> <span class="token variable">$request</span><span
                 class="token operator">-</span><span class="token operator">&gt;</span><span
@@ -159,7 +159,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     <span class="token comment">//</span>
 <span class="token punctuation">}</span></code></pre>
 <p>Используя этот <code>routeIs</code> метод, вы можете определить, соответствует ли входящий запрос <a
-            href="routing#named-routes">именованному маршруту</a> :</p>
+            href="routing#named-routes">именованному маршруту</a>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">if</span> <span
                 class="token punctuation">(</span><span class="token variable">$request</span><span
                 class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">routeIs</span><span
@@ -415,7 +415,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <p>При работе с элементами HTML, такими как флажки, ваше приложение может получать «правдивые» значения, которые на
     самом деле являются строками. Например, «верно» или «включено». Для удобства вы можете использовать этот <code>boolean</code> метод
     для получения этих значений как логических. В <code>boolean</code> метод возвращает <code>true</code> к 1, «1»,
-    правда, «правда», «на», и «да». Все остальные значения вернутся <code>false</code> :</p>
+    правда, «правда», «на», и «да». Все остальные значения вернутся <code>false</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token variable">$archived</span> <span
                 class="token operator">=</span> <span class="token variable">$request</span><span
                 class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">boolean</span><span
@@ -613,7 +613,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <p></p>
 <h4 id="retrieving-old-input"><a href="#retrieving-old-input">Получение старого ввода</a></h4>
 <p>Чтобы получить флэш-ввод из предыдущего запроса, вызовите <code>old</code> метод для экземпляра <code>Illuminate\Http\Request</code>.
-    <code>old</code> Метод будет тянуть ранее мелькнула входные данные из <a href="session">сессии</a> :</p>
+    <code>old</code> Метод будет тянуть ранее мелькнула входные данные из <a href="session">сессии</a>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token variable">$username</span> <span
                 class="token operator">=</span> <span class="token variable">$request</span><span
                 class="token operator">-</span><span class="token operator">&gt;</span><span

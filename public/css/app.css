@@ -675,6 +675,11 @@ pre[class*=language-].line-numbers > code {
     transform: translate3d(5px, 0, 0)
 }
 
+.docs_sidebar ul li h2 sub:hover {
+    opacity: 1;
+    transition: all 1s;
+}
+
 .docs_sidebar ul li a {
     display: block;
     font-size: .875em;
@@ -717,6 +722,18 @@ pre[class*=language-].line-numbers > code {
 
 .docs_sidebar ul .sub--on ul {
     max-height: none
+}
+
+.docs_sidebar sub {
+    font-weight: 400;
+    color: #3c506f;
+    display: block;
+    opacity: .3;
+}
+
+.docs_sidebar sub:hover {
+    opacity: 1;
+    transition: all 1s;
 }
 
 .callout p {
@@ -810,6 +827,18 @@ pre[class*=language-].line-numbers > code {
 .docs_main h4 a:before {
     margin-left: -18px;
     font-size: 17px
+}
+
+.docs_main sup {
+    font-weight: 400;
+    color: #3c506f;
+    opacity: .3;
+    transition: all .3s ease
+}
+
+.docs_main sup:hover {
+    opacity: 1;
+    transition: all 1s;
 }
 
 .docs_main code {
@@ -2168,6 +2197,11 @@ pre[class*=language-].line-numbers > code {
 
 [x-cloak] {
     display: none !important
+}
+
+.external:after {
+    content: "" url('/img/external.png');
+    padding-left: 5px
 }
 
 @media (min-width: 640px) {

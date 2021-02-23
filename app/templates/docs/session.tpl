@@ -116,7 +116,7 @@
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span
                 class="token punctuation">;</span></code></pre>
 <p>Вы можете использовать команду <code>session:table</code> Artisan для создания этой миграции. Чтобы узнать больше о
-    миграции базы данных, вы можете обратиться к полной <a href="migrations">документации по миграции</a> :</p>
+    миграции базы данных, вы можете обратиться к полной <a href="migrations">документации по миграции</a>:</p>
 <pre class=" language-php"><code class=" language-php">php artisan session<span class="token punctuation">:</span>table
 
 php artisan migrate</code></pre>
@@ -140,7 +140,7 @@ php artisan migrate</code></pre>
 <p>В Laravel есть два основных способа работы с данными сеанса: глобальный <code>session</code> помощник и через <code>Request</code>
     экземпляр. Во-первых, давайте посмотрим на доступ к сеансу через <code>Request</code> экземпляр, который может иметь
     типовые подсказки для закрытия маршрута или метода контроллера. Помните, что зависимости методов контроллера
-    автоматически вводятся через <a href="container">сервисный контейнер</a> Laravel :</p>
+    автоматически вводятся через <a href="container">сервисный контейнер</a> Laravel:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token php language-php"><span
                     class="token delimiter important">&lt;?php</span>
 
@@ -260,7 +260,7 @@ php artisan migrate</code></pre>
 <h4 id="determining-if-an-item-exists-in-the-session"><a href="#determining-if-an-item-exists-in-the-session">Определение
         наличия элемента в сеансе</a></h4>
 <p>Чтобы определить, присутствует ли элемент в сеансе, вы можете использовать этот <code>has</code> метод.
-    <code>has</code> Метод возвращает, <code>true</code> если элемент присутствует и не <code>null</code> :</p>
+    <code>has</code> Метод возвращает, <code>true</code> если элемент присутствует и не <code>null</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">if</span> <span
                 class="token punctuation">(</span><span class="token variable">$request</span><span
                 class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">session</span><span

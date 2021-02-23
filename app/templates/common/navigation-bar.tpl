@@ -17,34 +17,34 @@
                 <div class="docs_sidebar">
                     <ul>
                         <li>
-                            <h2>Пролог</h2>
+                            <h2>Пролог <sub>Prologue</sub></h2>
                             <ul>
-                                <li><a href="releases">Примечания к выпуску</a></li>
-                                <li><a href="upgrade">Руководство по обновлению</a></li>
-                                <li><a href="contributions">Руководство по вкладу</a></li>
+                                <li><a href="releases">Примечания к выпуску <sub>Release notes</sub></a></li>
+                                <li><a href="upgrade">Руководство по обновлению <sub>Upgrade guide</sub></a></li>
+                                <li><a href="contributions">Руководство по вкладу <sub>Contribution guide</sub></a></li>
                             </ul>
                         </li>
                         <li>
-                            <h2>Начиная</h2>
+                            <h2>Начиная <sub>Getting started</sub></h2>
                             <ul>
-                                <li><a href="installation">Установка</a></li>
-                                <li><a href="configuration">Конфигурация</a></li>
-                                <li><a href="structure">Структура каталогов</a></li>
-                                <li><a href="starter-kits">Стартовые наборы</a></li>
-                                <li><a href="deployment">Развертывание</a></li>
+                                <li><a href="installation">Установка <sub>Installation</sub></a></li>
+                                <li><a href="configuration">Конфигурация <sub>Configuration</sub></a></li>
+                                <li><a href="structure">Структура каталогов <sub>Directory structure</sub></a></li>
+                                <li><a href="starter-kits">Стартовые наборы <sub>Starter kits</sub></a></li>
+                                <li><a href="deployment">Развертывание <sub>Deployment</sub></a></li>
                             </ul>
                         </li>
                         <li>
-                            <h2>Архитектурные концепции</h2>
+                            <h2>Архитектурные концепции <sub>Architecture concepts</sub></h2>
                             <ul>
-                                <li><a href="lifecycle">Жизненный цикл запроса</a></li>
-                                <li><a href="container">Сервисный контейнер</a></li>
-                                <li><a href="providers">Поставщики услуг</a></li>
-                                <li><a href="facades">Фасады</a></li>
+                                <li><a href="lifecycle">Жизненный цикл запроса <sub>Request lifecycle</sub></a></li>
+                                <li><a href="container">Сервисный контейнер <sub>Service container</sub></a></li>
+                                <li><a href="providers">Поставщики услуг <sub>Service providers</sub></a></li>
+                                <li><a href="facades">Фасады <sub>Facades</sub></a></li>
                             </ul>
                         </li>
                         <li>
-                            <h2>Основы</h2>
+                            <h2>Основы <sub>The basics</sub></h2>
                             <ul>
                                 <li><a href="routing">Маршрутизация</a></li>
                                 <li><a href="middleware">Промежуточное ПО</a></li>
@@ -62,72 +62,72 @@
                             </ul>
                         </li>
                         <li>
-                            <h2>Погружаясь глубже</h2>
+                            <h2>Погружаясь глубже <sub>Digging deeper</sub></h2>
                             <ul>
-                                <li><a href="artisan">Консоль Artisan</a></li>
-                                <li><a href="broadcasting">Вещание</a></li>
-                                <li><a href="cache">Кеш</a></li>
-                                <li><a href="collections">Коллекции</a></li>
-                                <li><a href="mix">Компиляция активов</a></li>
-                                <li><a href="contracts">Контракты</a></li>
-                                <li><a href="events">События</a></li>
-                                <li><a href="filesystem">Файловое хранилище</a></li>
-                                <li><a href="helpers">Помощники</a></li>
-                                <li><a href="http-client">HTTP-клиент</a></li>
-                                <li><a href="localization">Локализация</a></li>
-                                <li><a href="mail">Почта</a></li>
-                                <li><a href="notifications">Уведомления</a></li>
-                                <li><a href="packages">Разработка пакетов</a></li>
-                                <li><a href="queues">Очереди</a></li>
-                                <li><a href="scheduling">Планирование задач</a></li>
+                                <li><a href="artisan">Консоль Artisan <sub>Artisan console</sub></a></li>
+                                <li><a href="broadcasting">Вещание <sub>Broadcasting</sub></a></li>
+                                <li><a href="cache">Кеш <sub>Cache</sub></a></li>
+                                <li><a href="collections">Коллекции <sub>Collections</sub></a></li>
+                                <li><a href="mix">Компиляция ассетов <sub>Compiling assets</sub></a></li>
+                                <li><a href="contracts">Контракты <sub>Contracts</sub></a></li>
+                                <li><a href="events">События <sub>Events</sub></a></li>
+                                <li><a href="filesystem">Файловое хранилище <sub>File storage</sub></a></li>
+                                <li><a href="helpers">Помощники <sub>Helpers</sub></a></li>
+                                <li><a href="http-client">HTTP-клиент <sub>HTTP client</sub></a></li>
+                                <li><a href="localization">Локализация <sub>Localization</sub></a></li>
+                                <li><a href="mail">Почта <sub>Mail</sub></a></li>
+                                <li><a href="notifications">Уведомления <sub>Notifications</sub></a></li>
+                                <li><a href="packages">Разработка пакетов <sub>Package development</sub></a></li>
+                                <li><a href="queues">Очереди <sub>Queues</sub></a></li>
+                                <li><a href="scheduling">Планирование задач <sub>Task scheduling</sub></a></li>
                             </ul>
                         </li>
                         <li>
-                            <h2>Безопасность</h2>
+                            <h2>Безопасность <sub>Security</sub></h2>
                             <ul>
-                                <li><a href="authentication">Аутентификация</a></li>
-                                <li><a href="authorization">Авторизация</a></li>
-                                <li><a href="verification">Подтверждение по элетронной почте</a></li>
-                                <li><a href="encryption">Шифрование</a></li>
-                                <li><a href="hashing">Хеширование</a></li>
-                                <li><a href="passwords">Сброс пароля</a></li>
+                                <li><a href="authentication">Аутентификация <sub>Authentication</sub></a></li>
+                                <li><a href="authorization">Авторизация <sub>Authorization</sub></a></li>
+                                <li><a href="verification">Подтверждение по элетронной почте <sub>Email verification</sub></a></li>
+                                <li><a href="encryption">Шифрование <sub>Encryption</sub></a></li>
+                                <li><a href="hashing">Хеширование <sub>Hashing</sub></a></li>
+                                <li><a href="passwords">Сброс пароля <sub>Password reset</sub></a></li>
                             </ul>
                         </li>
                         <li>
-                            <h2>База данных</h2>
+                            <h2>База данных <sub>Database</sub></h2>
                             <ul>
-                                <li><a href="database">Начиная</a></li>
-                                <li><a href="queries">Конструктор запросов</a></li>
-                                <li><a href="pagination">Пагинация</a></li>
-                                <li><a href="migrations">Миграции</a></li>
-                                <li><a href="seeding">Посев</a></li>
+                                <li><a href="database">Начиная <sub>Getting started</sub></a></li>
+                                <li><a href="queries">Конструктор запросов <sub>Query builder</sub></a></li>
+                                <li><a href="pagination">Пагинация <sub>Pagination</sub></a></li>
+                                <li><a href="migrations">Миграции <sub>Migrations</sub></a></li>
+                                <li><a href="seeding">Посев <sub>Seeding</sub></a></li>
                                 <li><a href="redis">Redis</a></li>
                             </ul>
                         </li>
                         <li>
-                            <h2>Красноречивый ORM</h2>
+                            <h2>Eloquent ORM</h2>
                             <ul>
-                                <li><a href="eloquent">Начиная</a></li>
-                                <li><a href="eloquent-relationships">Отношения</a></li>
-                                <li><a href="eloquent-collections">Коллекции</a></li>
-                                <li><a href="eloquent-mutators">Мутаторы / Приводы</a></li>
-                                <li><a href="eloquent-resources">Ресурсы API</a></li>
-                                <li><a href="eloquent-serialization">Сериализация</a></li>
+                                <li><a href="eloquent">Начиная <sub>Getting started</sub></a></li>
+                                <li><a href="eloquent-relationships">Отношения <sub>Relationships</sub></a></li>
+                                <li><a href="eloquent-collections">Коллекции <sub>Collections</sub></a></li>
+                                <li><a href="eloquent-mutators">Мутаторы/Приводы <sub>Mutators/Casts</sub></a></li>
+                                <li><a href="eloquent-resources">Ресурсы API <sub>API resources</sub></a></li>
+                                <li><a href="eloquent-serialization">Сериализация <sub>Serialization</sub></a></li>
                             </ul>
                         </li>
                         <li>
-                            <h2>Тестирование</h2>
+                            <h2>Тестирование <sub>Testing</sub></h2>
                             <ul>
-                                <li><a href="testing">Начиная</a></li>
-                                <li><a href="http-tests">HTTP-тесты</a></li>
-                                <li><a href="console-tests">Консольные тесты</a></li>
-                                <li><a href="dusk">Браузерные тесты</a></li>
-                                <li><a href="database-testing">База данных</a></li>
-                                <li><a href="mocking">Издевательство</a></li>
+                                <li><a href="testing">Начиная <sub>Getting started</sub></a></li>
+                                <li><a href="http-tests">HTTP-тесты <sub>HTTP tests</sub></a></li>
+                                <li><a href="console-tests">Консольные тесты <sub>Console tests</sub></a></li>
+                                <li><a href="dusk">Браузерные тесты <sub>Browser tests</sub></a></li>
+                                <li><a href="database-testing">База данных <sub>Database</sub></a></li>
+                                <li><a href="mocking">Мокинг <sub>Mocking</sub></a></li>
                             </ul>
                         </li>
                         <li>
-                            <h2>Пакеты</h2>
+                            <h2>Пакеты <sub>Packages</sub></h2>
                             <ul>
                                 <li><a href="starter-kits#laravel-breeze">Breeze</a></li>
                                 <li><a href="billing">Cashier (Stripe)</a></li>
@@ -147,7 +147,7 @@
                                 <li><a href="valet">Valet</a></li>
                             </ul>
                         </li>
-                        <li><a href="https://laravel.com/api/8.x/">Документация по API (eng)</a></li>
+                        <li><a class="external" href="https://laravel.com/api/8.x/" target="_blank">Документация по API (eng)</a></li>
                     </ul>
                 </div>
             </nav>

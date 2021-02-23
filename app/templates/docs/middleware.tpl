@@ -582,7 +582,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     экземпляр промежуточного программного обеспечения из <a href=">{literal}{{/literal}<container">контейнера службы</a>
    . Если вы хотели бы использовать тот же экземпляр промежуточного слоя, когда <code>handle</code> и
     <code>terminate</code> методы называются, зарегистрировать промежуточный с контейнером с использованием контейнера
-    <code>singleton</code> метода. Обычно это следует делать с помощью <code>register</code> метода вашего <code>AppServiceProvider</code> :
+    <code>singleton</code> метода. Обычно это следует делать с помощью <code>register</code> метода вашего <code>AppServiceProvider</code>:
 </p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">use</span> <span
                 class="token package">App<span class="token punctuation">\</span>Http<span

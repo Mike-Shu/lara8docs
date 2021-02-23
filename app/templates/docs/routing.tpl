@@ -78,7 +78,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p></p>
 <h4 id="csrf-protection"><a href="#csrf-protection">CSRF защита</a></h4>
-<p>Помните, что любые HTML - форму, указывающую <code>POST</code>, <code>PUT</code>, <code>PATCH</code>, или <code>DELETE</code> маршруты, которые определены в <code>web</code> файле маршруты должны включать маркер поле CSRF. В противном случае запрос будет отклонен. Вы можете прочитать больше о защите <a href="csrf">CSRF в документации CSRF</a> :</p>
+<p>Помните, что любые HTML - форму, указывающую <code>POST</code>, <code>PUT</code>, <code>PATCH</code>, или <code>DELETE</code> маршруты, которые определены в <code>web</code> файле маршруты должны включать маркер поле CSRF. В противном случае запрос будет отклонен. Вы можете прочитать больше о защите <a href="csrf">CSRF в документации CSRF</a>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token operator">&lt;</span>form method<span class="token operator">=</span><span class="token double-quoted-string string">"POST"</span> action<span class="token operator">=</span><span class="token double-quoted-string string">"/profile"</span><span class="token operator">&gt;</span>
     @csrf
     <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
@@ -272,7 +272,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 </blockquote>
 <p></p>
 <h3 id="route-group-prefixes"><a href="#route-group-prefixes">Префиксы маршрутов</a></h3>
-<p><code>prefix</code> Метод может быть использован в качестве префикса каждого маршрута в группе с заданной URI. Например, вы можете захотеть поставить перед всеми URI маршрутов в группе префикс <code>admin</code> :</p>
+<p><code>prefix</code> Метод может быть использован в качестве префикса каждого маршрута в группе с заданной URI. Например, вы можете захотеть поставить перед всеми URI маршрутов в группе префикс <code>admin</code>:</p>
 <pre class=" language-php"><code class=" language-php">Route<span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">prefix</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'admin'</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">group</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{literal}{{/literal}</span>
     Route<span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'/users'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{literal}{{/literal}</span>
         <span class="token comment">// Matches The "/admin/users" URL</span>
@@ -376,7 +376,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <p>Если соответствующий экземпляр модели не найден в базе данных, автоматически будет сгенерирован HTTP-ответ 404.</p>
 <p></p>
 <h4 id="customizing-the-resolution-logic"><a href="#customizing-the-resolution-logic">Настройка логики разрешения</a></h4>
-<p>Если вы хотите определить свою собственную логику разрешения привязки модели, вы можете использовать этот <code>Route::bind</code> метод. Замыкание, которое вы передаете <code>bind</code> методу, получит значение сегмента URI и должно вернуть экземпляр класса, который должен быть введен в маршрут. Опять же, эта настройка должна выполняться в <code>boot</code> методе вашего приложения <code>RouteServiceProvider</code> :</p>
+<p>Если вы хотите определить свою собственную логику разрешения привязки модели, вы можете использовать этот <code>Route::bind</code> метод. Замыкание, которое вы передаете <code>bind</code> методу, получит значение сегмента URI и должно вернуть экземпляр класса, который должен быть введен в маршрут. Опять же, эта настройка должна выполняться в <code>boot</code> методе вашего приложения <code>RouteServiceProvider</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">use</span> <span class="token package">App<span class="token punctuation">\</span>Models<span class="token punctuation">\</span>User</span><span class="token punctuation">;</span>
 <span class="token keyword">use</span> <span class="token package">Illuminate<span class="token punctuation">\</span>Support<span class="token punctuation">\</span>Facades<span class="token punctuation">\</span>Route</span><span class="token punctuation">;</span>
 

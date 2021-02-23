@@ -224,7 +224,7 @@
     <span class="token punctuation">}</span></span></code></pre>
 <p>Если ваше исключение содержит настраиваемую логику отчетности, которая необходима только при выполнении определенных
     условий, вам может потребоваться указать Laravel иногда сообщать об исключении, используя конфигурацию обработки
-    исключений по умолчанию. Для этого вы можете вернуться <code>false</code> из <code>report</code> метода исключения :
+    исключений по умолчанию. Для этого вы можете вернуться <code>false</code> из <code>report</code> метода исключения:
 </p>
 <pre class=" language-php"><code class=" language-php"><span class="token comment">/**
  * Report the exception.

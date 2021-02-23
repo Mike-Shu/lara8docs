@@ -35,7 +35,7 @@
 <p></p>
 <h3 id="basic-controllers"><a href="#basic-controllers">Базовые контроллеры</a></h3>
 <p>Давайте посмотрим на пример базового контроллера. Обратите внимание, что контроллер расширяет базовый класс
-    контроллера, включенный в Laravel <code>App\Http\Controllers\Controller</code> :</p>
+    контроллера, включенный в Laravel <code>App\Http\Controllers\Controller</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token php language-php"><span
                     class="token delimiter important">&lt;?php</span>
 
@@ -548,7 +548,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     <span class="token single-quoted-string string">'users'</span> <span class="token operator">=</span><span
                 class="token operator">&gt;</span> <span class="token single-quoted-string string">'admin_user'</span>
 <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<p>В приведенном выше примере создается следующий URI для <code>show</code> маршрута ресурса :</p>
+<p>В приведенном выше примере создается следующий URI для <code>show</code> маршрута ресурса:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token operator">/</span>users<span
                 class="token operator">/</span><span
                 class="token punctuation">{literal}{{/literal}</span>admin_user<span class="token punctuation">}</span></code></pre>
@@ -593,7 +593,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <p>По умолчанию <code>Route::resource</code> URI ресурсов будет создаваться с использованием английских глаголов. Если
     вам нужно локализовать глаголы действия <code>create</code> и <code>edit</code>, вы можете использовать этот <code>Route::resourceVerbs</code> метод.
     Это можно сделать в начале <code>boot</code> метода в вашем приложении
-    <code>App\Providers\RouteServiceProvider</code> :</p>
+    <code>App\Providers\RouteServiceProvider</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token comment">/**
  * Define your route model bindings, pattern filters, etc.
  *

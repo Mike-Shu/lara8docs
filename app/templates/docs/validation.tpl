@@ -62,7 +62,7 @@
     представление о том, как проверять данные входящего запроса с помощью Laravel:</p>
 <p></p>
 <h3 id="quick-defining-the-routes"><a href="#quick-defining-the-routes">Определение маршрутов</a></h3>
-<p>Сначала предположим, что в нашем <code>routes/web.php</code> файле определены следующие маршруты :</p>
+<p>Сначала предположим, что в нашем <code>routes/web.php</code> файле определены следующие маршруты:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">use</span> <span
                 class="token package">App<span class="token punctuation">\</span>Http<span
                     class="token punctuation">\</span>Controllers<span class="token punctuation">\</span>PostController</span><span
@@ -136,7 +136,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <p>Если проверка не выполняется во время традиционного HTTP-запроса, будет сгенерирован ответ перенаправления на
     предыдущий URL-адрес. Если входящий запрос является запросом XHR, будет возвращен ответ JSON, содержащий сообщения
     об ошибках проверки.</p>
-<p>Чтобы лучше понять <code>validate</code> метод, вернемся к нему <code>store</code> :</p>
+<p>Чтобы лучше понять <code>validate</code> метод, вернемся к нему <code>store</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token comment">/**
  * Store a new blog post.
  *
@@ -176,7 +176,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
                 class="token punctuation">,</span>
 <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>Кроме того, вы можете использовать этот <code>validateWithBag</code> метод для проверки запроса и сохранения сообщений
-    об ошибках в <a href="validation#named-error-bags">именованном пакете ошибок</a> :</p>
+    об ошибках в <a href="validation#named-error-bags">именованном пакете ошибок</a>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token variable">$validatedData</span> <span
                 class="token operator">=</span> <span class="token variable">$request</span><span
                 class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">validateWithBag</span><span
@@ -339,7 +339,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     могли легко получить доступ к вводу во время следующего запроса и повторно заполнить форму, которую пользователь
     пытался отправить.</p>
 <p>Чтобы получить флэш-ввод из предыдущего запроса, вызовите <code>old</code> метод для экземпляра <code>Illuminate\Http\Request</code>.
-    <code>old</code> Метод будет тянуть ранее мелькнула входные данные из <a href="session">сессии</a> :</p>
+    <code>old</code> Метод будет тянуть ранее мелькнула входные данные из <a href="session">сессии</a>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token variable">$title</span> <span
                 class="token operator">=</span> <span class="token variable">$request</span><span
                 class="token operator">-</span><span class="token operator">&gt;</span><span
@@ -667,7 +667,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <h3 id="named-error-bags"><a href="#named-error-bags">Именованные пакеты ошибок</a></h3>
 <p>Если у вас есть несколько форм на одной странице, вы можете указать имя, <code>MessageBag</code> содержащее ошибки
     проверки, что позволит вам получать сообщения об ошибках для конкретной формы. Для этого передайте имя в качестве
-    второго аргумента <code>withErrors</code> :</p>
+    второго аргумента <code>withErrors</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">return</span> <span
                 class="token function">redirect</span><span class="token punctuation">(</span><span
                 class="token single-quoted-string string">'register'</span><span class="token punctuation">)</span><span
@@ -693,7 +693,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
                 class="token punctuation">,</span> <span class="token variable">$messages</span> <span
                 class="token operator">=</span> <span class="token punctuation">[</span>
     <span class="token single-quoted-string string">'required'</span> <span class="token operator">=</span><span
-                class="token operator">&gt;</span> <span class="token single-quoted-string string">'The :attribute field is required.'</span><span
+                class="token operator">&gt;</span> <span class="token single-quoted-string string">'The:attribute field is required.'</span><span
                 class="token punctuation">,</span>
 <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>В этом примере <code>:attribute</code> заполнитель будет заменен фактическим именем проверяемого поля. Вы также можете
@@ -701,16 +701,16 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <pre class=" language-php"><code class=" language-php"><span class="token variable">$messages</span> <span
                 class="token operator">=</span> <span class="token punctuation">[</span>
     <span class="token single-quoted-string string">'same'</span> <span class="token operator">=</span><span
-                class="token operator">&gt;</span> <span class="token single-quoted-string string">'The :attribute and :other must match.'</span><span
+                class="token operator">&gt;</span> <span class="token single-quoted-string string">'The:attribute and:other must match.'</span><span
                 class="token punctuation">,</span>
     <span class="token single-quoted-string string">'size'</span> <span class="token operator">=</span><span
-                class="token operator">&gt;</span> <span class="token single-quoted-string string">'The :attribute must be exactly :size.'</span><span
+                class="token operator">&gt;</span> <span class="token single-quoted-string string">'The:attribute must be exactly:size.'</span><span
                 class="token punctuation">,</span>
     <span class="token single-quoted-string string">'between'</span> <span class="token operator">=</span><span
-                class="token operator">&gt;</span> <span class="token single-quoted-string string">'The :attribute value :input is not between :min - :max.'</span><span
+                class="token operator">&gt;</span> <span class="token single-quoted-string string">'The:attribute value:input is not between:min -:max.'</span><span
                 class="token punctuation">,</span>
     <span class="token single-quoted-string string">'in'</span> <span class="token operator">=</span><span
-                class="token operator">&gt;</span> <span class="token single-quoted-string string">'The :attribute must be one of the following types: :values'</span><span
+                class="token operator">&gt;</span> <span class="token single-quoted-string string">'The:attribute must be one of the following types::values'</span><span
                 class="token punctuation">,</span>
 <span class="token punctuation">]</span><span class="token punctuation">;</span></code></pre>
 <p></p>
@@ -890,7 +890,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <p>Некоторые из сообщений об ошибках встроенных правил проверки Laravel содержат <code>:value</code> заполнитель, который
     заменяется текущим значением атрибута запроса. Однако иногда вам может понадобиться <code>:value</code> заменить
     часть вашего сообщения проверки пользовательским представлением значения. Например, рассмотрим следующее правило,
-    которое указывает, что номер кредитной карты требуется, если <code>payment_type</code> имеет значение <code>cc</code> :
+    которое указывает, что номер кредитной карты требуется, если <code>payment_type</code> имеет значение <code>cc</code>:
 </p>
 <pre class=" language-php"><code class=" language-php">Validator<span class="token punctuation">:</span><span
                 class="token punctuation">:</span><span class="token function">make</span><span
@@ -1106,7 +1106,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <p>Доступные ограничения: <em>min_width</em>, <em>max_width</em>, <em>min_height</em>, <em>max_height</em>, <em>width</em>
    , <em>height</em>, <em>ratio</em>.</p>
 <p><em>Отношение</em> ограничение должно быть представлено в виде шириной деленной на высоту. Это может быть указано в
-    виде дроби <code>3/2</code> или числа с плавающей запятой <code>1.5</code> :</p>
+    виде дроби <code>3/2</code> или числа с плавающей запятой <code>1.5</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span
                 class="token single-quoted-string string">'avatar'</span> <span class="token operator">=</span><span
                 class="token operator">&gt;</span> <span class="token single-quoted-string string">'dimensions:ratio=3/2'</span></code></pre>
@@ -1164,11 +1164,11 @@ Validator<span class="token punctuation">:</span><span class="token punctuation"
     Вот полный список стилей проверки, которые вы можете применить:</p>
 <div class="content-list">
     <ul>
-        <li><code>rfc</code> : <code>RFCValidation</code></li>
-        <li><code>strict</code> : <code>NoRFCWarningsValidation</code></li>
-        <li><code>dns</code> : <code>DNSCheckValidation</code></li>
-        <li><code>spoof</code> : <code>SpoofCheckValidation</code></li>
-        <li><code>filter</code> : <code>FilterEmailValidation</code></li>
+        <li><code>rfc</code>: <code>RFCValidation</code></li>
+        <li><code>strict</code>: <code>NoRFCWarningsValidation</code></li>
+        <li><code>dns</code>: <code>DNSCheckValidation</code></li>
+        <li><code>spoof</code>: <code>SpoofCheckValidation</code></li>
+        <li><code>filter</code>: <code>FilterEmailValidation</code></li>
     </ul>
 </div>
 <p><code>filter</code> Валидатор, который использует PHP- <code>filter_var</code> функцию, корабли с Laravel и был
@@ -1648,7 +1648,7 @@ Validator<span class="token punctuation">:</span><span class="token punctuation"
 <p><strong>Добавление дополнительных предложений Where:</strong></p>
 <p>Вы можете указать дополнительные условия запроса, настроив запрос с помощью <code>where</code> метода. Например,
     давайте добавим условие запроса, которое ограничивает область действия запроса только поисковыми записями, которые
-    имеют <code>account_id</code> значение столбца <code>1</code> :</p>
+    имеют <code>account_id</code> значение столбца <code>1</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span
                 class="token single-quoted-string string">'email'</span> <span class="token operator">=</span><span
                 class="token operator">&gt;</span> Rule<span class="token punctuation">:</span><span
@@ -1677,7 +1677,7 @@ Validator<span class="token punctuation">:</span><span class="token punctuation"
 <p>Иногда вы можете захотеть не проверять данное поле, если другое поле имеет заданное значение. Вы можете сделать это с
     помощью <code>exclude_if</code> правила проверки. В этом примере, <code>appointment_date</code> и
     <code>doctor_name</code> поля не будут проверяться, если <code>has_appointment</code> поле имеет значение
-    <code>false</code> :</p>
+    <code>false</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">use</span> <span
                 class="token package">Illuminate<span class="token punctuation">\</span>Support<span
                     class="token punctuation">\</span>Facades<span
@@ -1913,7 +1913,7 @@ Validator<span class="token punctuation">:</span><span class="token punctuation"
     */</span>
     <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">message</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
     <span class="token punctuation">{literal}{{/literal}</span>
-        <span class="token keyword">return</span> <span class="token single-quoted-string string">'The :attribute must be uppercase.'</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token single-quoted-string string">'The:attribute must be uppercase.'</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></span></code></pre>
 <p>Вы можете вызвать <code>trans</code> помощника из своего <code>message</code> метода, если хотите вернуть сообщение об

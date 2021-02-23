@@ -95,7 +95,7 @@
 </h4>
 <p>Вы также можете возвращать модели и коллекции <a href="eloquent">Eloquent ORM</a> прямо из ваших маршрутов и
     контроллеров. Когда вы это сделаете, Laravel автоматически преобразует модели и коллекции в ответы JSON, соблюдая <a
-            href="eloquent-serialization#hiding-attributes-from-json">скрытые атрибуты</a> модели :</p>
+            href="eloquent-serialization#hiding-attributes-from-json">скрытые атрибуты</a> модели:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">use</span> <span
                 class="token package">App<span class="token punctuation">\</span>Models<span
                     class="token punctuation">\</span>User</span><span class="token punctuation">;</span>
@@ -202,7 +202,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <p><code>cookie</code> Метод также принимает несколько аргументов больше, которые используются реже. Как правило, эти
     аргументы имеют то же назначение и значение, что и аргументы, передаваемые встроенному в <a
             href="https://secure.php.net/manual/en/function.setcookie.php">PHP</a> методу <a
-            href="https://secure.php.net/manual/en/function.setcookie.php">setcookie</a> :</p>
+            href="https://secure.php.net/manual/en/function.setcookie.php">setcookie</a>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">return</span> <span
                 class="token function">response</span><span class="token punctuation">(</span><span
                 class="token single-quoted-string string">'Hello World'</span><span
@@ -380,7 +380,7 @@ Cookie<span class="token punctuation">:</span><span class="token punctuation">:<
 <h3 id="redirecting-controller-actions"><a href="#redirecting-controller-actions">Перенаправление к действиям
         контроллера</a></h3>
 <p>Вы также можете создавать перенаправления на <a href="controllers">действия контроллера</a>. Для этого передайте в
-    <code>action</code> метод имя контроллера и действия :</p>
+    <code>action</code> метод имя контроллера и действия:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">use</span> <span
                 class="token package">App<span class="token punctuation">\</span>Http<span
                     class="token punctuation">\</span>Controllers<span class="token punctuation">\</span>UserController</span><span
@@ -447,7 +447,7 @@ Cookie<span class="token punctuation">:</span><span class="token punctuation">:<
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span
                 class="token punctuation">;</span></code></pre>
 <p>После перенаправления пользователя вы можете отобразить мигающее сообщение из <a href="session">сеанса</a>.
-    Например, используя <a href="blade">синтаксис Blade</a> :</p>
+    Например, используя <a href="blade">синтаксис Blade</a>:</p>
 <pre class=" language-php"><code class=" language-php">@<span class="token keyword">if</span> <span
                 class="token punctuation">(</span><span class="token function">session</span><span
                 class="token punctuation">(</span><span class="token single-quoted-string string">'status'</span><span

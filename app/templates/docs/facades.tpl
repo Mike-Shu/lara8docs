@@ -225,7 +225,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     доступа к базовой реализации <code>Illuminate\Contracts\Cache\Factory</code> интерфейса. Любые вызовы, которые мы
     делаем с использованием фасада, будут передаваться в базовый экземпляр службы кеширования Laravel.</p>
 <p>Если мы посмотрим на этот <code>Illuminate\Support\Facades\Cache</code> класс, вы увидите, что статического метода нет
-    <code>get</code> :</p>
+    <code>get</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">class</span> <span
                 class="token class-name">Cache</span> <span class="token keyword">extends</span> <span
                 class="token class-name">Facade</span>
@@ -280,7 +280,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     имитировать внедренного издателя. Однако для этого требуется, чтобы мы всегда передавали экземпляр издателя при
     каждом вызове <code>publish</code> метода. Используя фасады в реальном времени, мы можем поддерживать такую же
     тестируемость, при этом не требуя явной передачи <code>Publisher</code> экземпляра. Чтобы создать фасад реального
-    времени, добавьте к пространству имен импортируемого класса префикс <code>Facades</code> :</p>
+    времени, добавьте к пространству имен импортируемого класса префикс <code>Facades</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token php language-php"><span
                     class="token delimiter important">&lt;?php</span>
 

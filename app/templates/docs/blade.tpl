@@ -157,7 +157,7 @@
 <h3 id="html-entity-encoding"><a href="#html-entity-encoding">Кодировка HTML-объекта</a></h3>
 <p>По умолчанию Blade (и <code>e</code> помощник Laravel ) будет дважды кодировать объекты HTML. Если вы хотите отключить
     двойное кодирование, вызовите <code>Blade::withoutDoubleEncoding</code> метод из <code>boot</code> метода вашего
-    <code>AppServiceProvider</code> :</p>
+    <code>AppServiceProvider</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token php language-php"><span
                     class="token delimiter important">&lt;?php</span>
 
@@ -661,7 +661,7 @@ Hello<span class="token punctuation">,</span> @<span
 <p></p>
 <h4 id="rendering-views-for-collections"><a href="#rendering-views-for-collections">Визуализация представлений для
         коллекций</a></h4>
-<p>Вы можете комбинировать циклы и включать в одну строку с помощью <code>@each</code> директивы Blade :</p>
+<p>Вы можете комбинировать циклы и включать в одну строку с помощью <code>@each</code> директивы Blade:</p>
 <pre class=" language-php"><code class=" language-php">@<span class="token function">each</span><span
                 class="token punctuation">(</span><span
                 class="token single-quoted-string string">'view.name'</span><span
@@ -760,7 +760,7 @@ Hello<span class="token punctuation">,</span> @<span
     <code>layout</code> компоненте. Как вы могли заметить, мы <code>layout</code> также уважаем <code>$title</code> слот,
     если он есть; в противном случае отображается заголовок по умолчанию. Мы можем вставить настраиваемый заголовок из
     нашего представления списка задач, используя стандартный синтаксис слота, описанный в <a href="blade#components">документации
-        компонента</a> :</p>
+        компонента</a>:</p>
 <pre class=" language-html"><code class=" language-html"><span class="token comment">&lt;!-- resources/views/tasks.blade.php --&gt;</span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>x-layout</span><span
@@ -842,7 +842,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <p>При определении дочернего представления используйте <code>@extends</code> директиву Blade, чтобы указать, какой макет
     дочернее представление должно «наследовать». Представления, которые расширяют макет Blade, могут вставлять контент в
     разделы макета с помощью <code>@section</code> директив. Помните, как показано в приведенном выше примере, содержимое
-    этих разделов будет отображаться в макете с использованием <code>@yield</code> :</p>
+    этих разделов будет отображаться в макете с использованием <code>@yield</code>:</p>
 <pre class=" language-html"><code class=" language-html"><span class="token comment">&lt;!-- resources/views/child.blade.php --&gt;</span>
 
 @extends('layouts.app')
@@ -1100,7 +1100,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
                 class="token operator">/</span><span class="token operator">&gt;</span></code></pre>
 <p>Вы должны определить необходимые данные компонента в его конструкторе класса. Все общедоступные свойства компонента
     будут автоматически доступны в представлении компонента. Нет необходимости передавать данные в представление из
-    <code>render</code> метода компонента :</p>
+    <code>render</code> метода компонента:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token php language-php"><span
                     class="token delimiter important">&lt;?php</span>
 
@@ -1312,7 +1312,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
         <p>Использование директив, таких как <code>@env</code> внутри тегов компонентов, в настоящее время не
-            поддерживается. Например, <code>&lt;x-alert :live="@env('production')"/&gt;</code> не будет компилироваться.
+            поддерживается. Например, <code>&lt;x-alert:live="@env('production')"/&gt;</code> не будет компилироваться.
         </p></p></div>
 </blockquote>
 <p></p>
@@ -1730,7 +1730,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     компилятор Blade встречает настраиваемую директиву, он вызывает предоставленный обратный вызов с выражением,
     содержащимся в директиве.</p>
 <p>В следующем примере создается <code>@datetime($var)</code> директива, которая форматирует данное <code>$var</code>,
-    которое должно быть экземпляром <code>DateTime</code> :</p>
+    которое должно быть экземпляром <code>DateTime</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token php language-php"><span
                     class="token delimiter important">&lt;?php</span>
 
@@ -1793,7 +1793,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     настраиваемых условных операторов. По этой причине Blade предоставляет <code>Blade::if</code> метод, позволяющий
     быстро определять пользовательские условные директивы с помощью замыканий. Например, давайте определим настраиваемое
     условие, которое проверяет настроенный по умолчанию «диск» для приложения. Мы можем сделать это в <code>boot</code> нашем
-    методе <code>AppServiceProvider</code> :</p>
+    методе <code>AppServiceProvider</code>:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">use</span> <span
                 class="token package">Illuminate<span class="token punctuation">\</span>Support<span
                     class="token punctuation">\</span>Facades<span class="token punctuation">\</span>Blade</span><span
