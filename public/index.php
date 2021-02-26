@@ -8,7 +8,7 @@ use function FastRoute\simpleDispatcher;
 
 require __DIR__ . "/../vendor/autoload.php";
 
-$config = new Config();
+$config = Config::get();
 
 // Получаем URI, очищаем его от лишних символов (а-ля ?foo=bar) и декодируем.
 $uri = $_SERVER['REQUEST_URI'];
