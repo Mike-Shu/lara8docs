@@ -189,7 +189,7 @@
                                         <a href="https://envoyer.io" class="transition-colors hover:text-gray-700">Envoyer</a>
                                     </li>
                                     <li>
-                                        <a href="horizon" class="transition-colors hover:text-gray-700">Horizon</a>
+                                        <a href="https://laravel.com/docs/8.x/horizon" class="transition-colors hover:text-gray-700">Horizon</a>
                                     </li>
                                     <li>
                                         <a href="https://lumen.laravel.com"
@@ -203,7 +203,7 @@
                                         <a href="broadcasting" class="transition-colors hover:text-gray-700">Echo</a>
                                     </li>
                                     <li>
-                                        <a href="valet" class="transition-colors hover:text-gray-700">Valet</a>
+                                        <a href="https://laravel.com/docs/8.x/valet" class="transition-colors hover:text-gray-700">Valet</a>
                                     </li>
                                     <li>
                                         <a href="mix" class="transition-colors hover:text-gray-700">Mix</a>
@@ -213,22 +213,22 @@
                                            class="transition-colors hover:text-gray-700">Spark</a>
                                     </li>
                                     <li>
-                                        <a href="billing" class="transition-colors hover:text-gray-700">Cashier</a>
+                                        <a href="https://laravel.com/docs/8.x/billing" class="transition-colors hover:text-gray-700">Cashier</a>
                                     </li>
                                     <li>
-                                        <a href="homestead" class="transition-colors hover:text-gray-700">Homestead</a>
+                                        <a href="https://laravel.com/docs/8.x/homestead" class="transition-colors hover:text-gray-700">Homestead</a>
                                     </li>
                                     <li>
                                         <a href="dusk" class="transition-colors hover:text-gray-700">Dusk</a>
                                     </li>
                                     <li>
-                                        <a href="passport" class="transition-colors hover:text-gray-700">Passport</a>
+                                        <a href="https://laravel.com/docs/8.x/passport" class="transition-colors hover:text-gray-700">Passport</a>
                                     </li>
                                     <li>
-                                        <a href="scout" class="transition-colors hover:text-gray-700">Scout</a>
+                                        <a href="https://laravel.com/docs/8.x/scout" class="transition-colors hover:text-gray-700">Scout</a>
                                     </li>
                                     <li>
-                                        <a href="socialite" class="transition-colors hover:text-gray-700">Socialite</a>
+                                        <a href="https://laravel.com/docs/8.x/socialite" class="transition-colors hover:text-gray-700">Socialite</a>
                                     </li>
                                     <li>
                                         <a href="telescope" class="transition-colors hover:text-gray-700">Telescope</a>

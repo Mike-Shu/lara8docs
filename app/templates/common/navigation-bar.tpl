@@ -25,7 +25,7 @@
                             </ul>
                         </li>
                         <li>
-                            <h2>Начиная <sub>Getting started</sub></h2>
+                            <h2>Начало работы <sub>Getting started</sub></h2>
                             <ul>
                                 <li><a href="installation">Установка <sub>Installation</sub></a></li>
                                 <li><a href="configuration">Конфигурация <sub>Configuration</sub></a></li>
@@ -96,7 +96,7 @@
                         <li>
                             <h2>База данных <sub>Database</sub></h2>
                             <ul>
-                                <li><a href="database">Начиная <sub>Getting started</sub></a></li>
+                                <li><a href="database">Начало работы <sub>Getting started</sub></a></li>
                                 <li><a href="queries">Конструктор запросов <sub>Query builder</sub></a></li>
                                 <li><a href="pagination">Пагинация <sub>Pagination</sub></a></li>
                                 <li><a href="migrations">Миграции <sub>Migrations</sub></a></li>
@@ -107,7 +107,7 @@
                         <li>
                             <h2>Eloquent ORM</h2>
                             <ul>
-                                <li><a href="eloquent">Начиная <sub>Getting started</sub></a></li>
+                                <li><a href="eloquent">Начало работы <sub>Getting started</sub></a></li>
                                 <li><a href="eloquent-relationships">Отношения <sub>Relationships</sub></a></li>
                                 <li><a href="eloquent-collections">Коллекции <sub>Collections</sub></a></li>
                                 <li><a href="eloquent-mutators">Мутаторы/Приводы <sub>Mutators/Casts</sub></a></li>
@@ -118,7 +118,7 @@
                         <li>
                             <h2>Тестирование <sub>Testing</sub></h2>
                             <ul>
-                                <li><a href="testing">Начиная <sub>Getting started</sub></a></li>
+                                <li><a href="testing">Начало работы <sub>Getting started</sub></a></li>
                                 <li><a href="http-tests">HTTP-тесты <sub>HTTP tests</sub></a></li>
                                 <li><a href="console-tests">Консольные тесты <sub>Console tests</sub></a></li>
                                 <li><a href="dusk">Браузерные тесты <sub>Browser tests</sub></a></li>
@@ -130,21 +130,21 @@
                             <h2>Пакеты <sub>Packages</sub></h2>
                             <ul>
                                 <li><a href="starter-kits#laravel-breeze">Breeze</a></li>
-                                <li><a href="billing">Cashier (Stripe)</a></li>
-                                <li><a href="cashier-paddle">Cashier (Paddle)</a></li>
+                                <li><a class="external" href="https://laravel.com/docs/8.x/billing">Cashier (Stripe) (eng)</a></li>
+                                <li><a class="external" href="https://laravel.com/docs/8.x/cashier-paddle">Cashier (Paddle) (eng)</a></li>
                                 <li><a href="dusk">Dusk</a></li>
-                                <li><a href="envoy">Envoy</a></li>
-                                <li><a href="fortify">Fortify</a></li>
-                                <li><a href="homestead">Homestead</a></li>
-                                <li><a href="horizon">Horizon</a></li>
-                                <li><a href="https://jetstream.laravel.com">Jetstream</a></li>
-                                <li><a href="passport">Passport</a></li>
-                                <li><a href="sail">Sail</a></li>
-                                <li><a href="sanctum">Sanctum</a></li>
-                                <li><a href="scout">Scout</a></li>
-                                <li><a href="socialite">Socialite</a></li>
-                                <li><a href="telescope">Telescope</a></li>
-                                <li><a href="valet">Valet</a></li>
+                                <li><a class="external" href="https://laravel.com/docs/8.x/envoy">Envoy (eng)</a></li>
+                                <li><a class="external" href="https://laravel.com/docs/8.x/fortify">Fortify (eng)</a></li>
+                                <li><a class="external" href="https://laravel.com/docs/8.x/homestead">Homestead (eng)</a></li>
+                                <li><a class="external" href="https://laravel.com/docs/8.x/horizon">Horizon (eng)</a></li>
+                                <li><a href="starter-kits#laravel-jetstream">Jetstream</a></li>
+                                <li><a class="external" href="https://laravel.com/docs/8.x/passport">Passport (eng)</a></li>
+                                <li><a class="external" href="https://laravel.com/docs/8.x/sail">Sail (eng)</a></li>
+                                <li><a class="external" href="https://laravel.com/docs/8.x/sanctum">Sanctum (eng)</a></li>
+                                <li><a class="external" href="https://laravel.com/docs/8.x/scout">Scout (eng)</a></li>
+                                <li><a class="external" href="https://laravel.com/docs/8.x/socialite">Socialite (eng)</a></li>
+                                <li><a class="external" href="https://laravel.com/docs/8.x/telescope">Telescope (eng)</a></li>
+                                <li><a class="external" href="https://laravel.com/docs/8.x/valet">Valet (eng)</a></li>
                             </ul>
                         </li>
                         <li><a class="external" href="https://laravel.com/api/8.x/" target="_blank">Документация по API (eng)</a></li>

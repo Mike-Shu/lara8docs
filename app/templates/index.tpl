@@ -16,7 +16,7 @@
         {include "common/navigation-bar.tpl" uri=$_name fixed_navigation=$_fixed_navigation}
 
         <section class="flex-1 pl-20 lg:pl-0">
-            <div class="max-w-screen-lg px-4 sm:px-16 lg:px-24">
+            <div class="max-w-screen-xl px-4 sm:px-16 lg:px-24">
                 <section class="mt-8 md:mt-16">
                     <section class="docs_main max-w-prose">
 
