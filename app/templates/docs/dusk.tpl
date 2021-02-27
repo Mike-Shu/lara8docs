@@ -81,7 +81,7 @@
 <pre class=" language-php"><code class=" language-php">composer <span class="token keyword">require</span> <span
                 class="token operator">--</span>dev laravel<span class="token operator">/</span>dusk</code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -96,7 +96,7 @@
 <p>Затем установите <code>APP_URL</code> переменную среды в <code>.env</code> файле вашего приложения. Это значение
     должно соответствовать URL-адресу, который вы используете для доступа к вашему приложению в браузере.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -123,7 +123,7 @@ php artisan dusk<span class="token punctuation">:</span>chrome<span class="token
 php artisan dusk<span class="token punctuation">:</span>chrome<span class="token operator">-</span>driver <span
                 class="token operator">--</span>detect</code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -210,7 +210,7 @@ php artisan dusk<span class="token punctuation">:</span>chrome<span class="token
                     class="token punctuation">;</span>
 <span class="token punctuation">}</span></span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -232,7 +232,7 @@ php artisan dusk<span class="token punctuation">:</span>chrome<span class="token
 <pre class=" language-php"><code class=" language-php">php artisan dusk <span class="token operator">--</span>group<span
                 class="token operator">=</span>foo</code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -571,7 +571,7 @@ php artisan dusk<span class="token punctuation">:</span>chrome<span class="token
                 class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -846,7 +846,7 @@ php artisan dusk<span class="token punctuation">:</span>chrome<span class="token
                 class="token punctuation">.</span><span class="token single-quoted-string string">'/photos/mountains.png'</span><span
                 class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -895,7 +895,7 @@ php artisan dusk<span class="token punctuation">:</span>chrome<span class="token
     <span class="token comment">//...</span>
 <span class="token punctuation">}</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -930,7 +930,7 @@ php artisan dusk<span class="token punctuation">:</span>chrome<span class="token
                 class="token punctuation">]</span><span class="token punctuation">)</span><span
                 class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -2463,7 +2463,7 @@ Vue<span class="token punctuation">.</span><span class="token function">componen
 <p></p>
 <h2 id="continuous-integration"><a href="#continuous-integration">Непрерывная интеграция</a></h2>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">

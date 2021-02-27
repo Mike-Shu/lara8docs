@@ -73,7 +73,7 @@
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span
                 class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -98,7 +98,7 @@
                 class="token punctuation">{literal}{{/literal}</span><span class="token punctuation">{literal}{{/literal}</span> <span class="token variable">$name</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span
                 class="token punctuation">.</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <span class="mb-0 lg:ml-6">
@@ -145,7 +145,7 @@
 <span class="token operator">&lt;</span><span class="token operator">/</span>script<span
                 class="token operator">&gt;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -192,7 +192,7 @@
                 class="token punctuation">{literal}{{/literal}</span><span class="token operator">!</span><span class="token operator">!</span> <span class="token variable">$name</span> <span class="token operator">!</span><span class="token operator">!</span><span class="token punctuation">}</span><span
                 class="token punctuation">.</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -421,7 +421,7 @@ Hello<span class="token punctuation">,</span> @<span
                 class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
 @<span class="token keyword">endwhile</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -576,7 +576,7 @@ Hello<span class="token punctuation">,</span> @<span
 <p></p>
 <h3 id="including-subviews"><a href="#including-subviews">Включая подвиды</a></h3>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -651,7 +651,7 @@ Hello<span class="token punctuation">,</span> @<span
                 class="token single-quoted-string string">'complete'</span><span class="token punctuation">]</span><span
                 class="token punctuation">)</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -684,7 +684,7 @@ Hello<span class="token punctuation">,</span> @<span
                 class="token single-quoted-string string">'view.empty'</span><span
                 class="token punctuation">)</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -868,7 +868,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     перезаписи) содержимого на боковую панель макета. <code>@parent</code> Директива будет заменено на содержимое макета
    , когда представление визуализируется.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -1307,7 +1307,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
                 class="token operator">--</span><span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -1610,7 +1610,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <h3 id="manually-registering-components"><a href="#manually-registering-components">Регистрация компонентов вручную</a>
 </h3>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -1779,7 +1779,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
                     class="token punctuation">;</span> <span
                     class="token delimiter important">?&gt;</span></span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">

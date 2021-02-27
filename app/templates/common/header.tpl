@@ -5,7 +5,7 @@
     <title>{$_title}</title>
     <link rel="shortcut icon" href="/img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="/css/ins2wgm.css">
-    <link rel="stylesheet" type="text/css" href="/css/app.css?id=37">
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
     <script src="/js/jquery-3.5.1.min.js"></script>
     <script src="/js/app.js"></script>
 </head>

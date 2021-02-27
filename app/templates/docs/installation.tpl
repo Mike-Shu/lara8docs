@@ -71,7 +71,7 @@
     Laravel. Sail обеспечивает отличную отправную точку для создания приложения Laravel с использованием PHP, MySQL и
     Redis без предварительного опыта работы с Docker.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -99,7 +99,7 @@
 <p>После запуска контейнеров Docker приложения вы можете получить доступ к приложению в своем веб-браузере по адресу: <a
             href="http://localhost/">http://localhost</a>.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -115,7 +115,7 @@
             href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">документации по среде разработчика</a>
     Microsoft .</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -143,7 +143,7 @@
 <p>После запуска контейнеров Docker приложения вы можете получить доступ к приложению в своем веб-браузере по адресу: <a
             href="http://localhost/">http://localhost</a>.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -178,7 +178,7 @@
 <p>После запуска контейнеров Docker приложения вы можете получить доступ к приложению в своем веб-браузере по адресу: <a
             href="http://localhost/">http: // localhost</a>.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -234,7 +234,7 @@ php artisan serve</code></pre>
     это будет угрозой безопасности в случае, если злоумышленник получит доступ к вашему репозиторию системы управления
     версиями, поскольку любые конфиденциальные учетные данные будут раскрыты.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -273,7 +273,7 @@ php artisan serve</code></pre>
 <p>Если вы используете Laravel в качестве фреймворка полного стека, мы также настоятельно рекомендуем вам научиться
     компилировать CSS и JavaScript вашего приложения с помощью <a href="mix">Laravel Mix</a>.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">

@@ -149,7 +149,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     <span class="token punctuation">]</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -191,7 +191,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     JavaScript, такие как Angular и Axios, автоматически помещают его значение в <code>X-XSRF-TOKEN</code> заголовок в
     запросах с одним и тем же источником.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">

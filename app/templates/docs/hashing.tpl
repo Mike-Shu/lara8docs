@@ -28,7 +28,7 @@
             href="https://en.wikipedia.org/wiki/Bcrypt">Bcrypt</a> и <a href="https://en.wikipedia.org/wiki/Argon2">Argon2</a>
     (варианты Argon2i и Argon2id).</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -123,7 +123,7 @@
                 class="token punctuation">,</span>
 <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">

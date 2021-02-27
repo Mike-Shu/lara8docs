@@ -49,7 +49,7 @@ php artisan make<span class="token punctuation">:</span>resource UserCollection<
 <p></p>
 <h2 id="concept-overview"><a href="#concept-overview">Обзор концепции</a></h2>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -316,7 +316,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <p></p>
 <h2 id="writing-resources"><a href="#writing-resources">Написание ресурсов</a></h2>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -447,7 +447,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     <span class="token punctuation">]</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -636,7 +636,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -957,7 +957,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <p>Опять же, если задано условие <code>false</code>, эти атрибуты будут удалены из ответа ресурса перед его отправкой
     клиенту.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">

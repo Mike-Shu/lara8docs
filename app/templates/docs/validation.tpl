@@ -407,7 +407,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     <span class="token punctuation">]</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -505,7 +505,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     <span class="token keyword">return</span> <span class="token boolean constant">true</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -1174,7 +1174,7 @@ Validator<span class="token punctuation">:</span><span class="token punctuation"
 <p><code>filter</code> Валидатор, который использует PHP- <code>filter_var</code> функцию, корабли с Laravel и был
     поведение проверки электронной почты по умолчанию Laravel в до Laravel версии 5.8.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -1302,7 +1302,7 @@ Validator<span class="token punctuation">:</span><span class="token punctuation"
 <h4 id="rule-integer"><a href="#rule-integer">integer</a></h4>
 <p>Проверяемое поле должно быть целым числом.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -1392,7 +1392,7 @@ Validator<span class="token punctuation">:</span><span class="token punctuation"
     форматированию, что и требуется, <code>preg_match</code> и, следовательно, также включать допустимые разделители.
     Например: <code>'email' =&gt; 'not_regex:/^.+$/i'</code>.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -1423,7 +1423,7 @@ Validator<span class="token punctuation">:</span><span class="token punctuation"
     форматированию, что и требуется, <code>preg_match</code> и, следовательно, также включать допустимые разделители.
     Например: <code>'email' =&gt; 'regex:/^.+@.+$/i'</code>.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -1605,7 +1605,7 @@ Validator<span class="token punctuation">:</span><span class="token punctuation"
     <span class="token punctuation">]</span><span class="token punctuation">,</span>
 <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -1734,7 +1734,7 @@ Validator<span class="token punctuation">:</span><span class="token punctuation"
 <p>В приведенном выше примере <code>email</code> поле будет проверяться, только если оно присутствует в
     <code>$data</code> массиве.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -1803,7 +1803,7 @@ Validator<span class="token punctuation">:</span><span class="token punctuation"
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span
                 class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">
@@ -2012,7 +2012,7 @@ Validator<span class="token punctuation">:</span><span class="token punctuation"
     дополнительных методов, которые необходимо реализовать помимо методов, требуемых типичным <code>Rule</code> интерфейсом.
 </p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">

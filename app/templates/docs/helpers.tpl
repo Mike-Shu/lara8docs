@@ -4214,7 +4214,7 @@ Arr<span class="token punctuation">:</span><span class="token punctuation">:</sp
                 class="token single-quoted-string string">'production'</span><span
                 class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout">
         <div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div>
         <p class="mb-0 lg:ml-6">

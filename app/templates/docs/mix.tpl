@@ -45,7 +45,7 @@
                 class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>Если вы когда-либо были сбиты с толку и ошеломлены, начав работать с веб-пакетами и компиляцией ресурсов, вам понравится Laravel Mix. Однако от вас не требуется использовать его при разработке приложения; вы можете использовать любой инструмент конвейера активов, который пожелаете, или даже не использовать его вовсе.</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div
                 class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img
                     src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Если вам нужно начать создание приложения с помощью Laravel и <a
                     href="https://tailwindcss.com">Tailwind CSS</a>, ознакомьтесь с одним из наших <a
@@ -197,7 +197,7 @@ npx tailwindcss init</code></pre>
                 class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div
                 class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img
                     src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Абсолютные пути для любого заданного <code>url()</code> будут исключены из перезаписи URL. Например, <code>url('/images/thing.png')</code> или <code>url('http://example.com/images/thing.png')</code> не будут изменены.</p></p></div>
 </blockquote>

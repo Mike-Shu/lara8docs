@@ -32,7 +32,7 @@
     <span class="token keyword">return</span> <span class="token function">view</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'greeting'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token single-quoted-string string">'name'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token single-quoted-string string">'James'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Ищете дополнительную информацию о том, как писать шаблоны Blade? Ознакомьтесь с полной <a href="blade">документацией Blade,</a> чтобы начать работу.</p></p></div>
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Ищете дополнительную информацию о том, как писать шаблоны Blade? Ознакомьтесь с полной <a href="blade">документацией Blade,</a> чтобы начать работу.</p></p></div>
 </blockquote>
 <p></p>
 <h2 id="creating-and-rendering-views"><a href="#creating-and-rendering-views">Создание и рендеринг представлений</a></h2>
@@ -51,7 +51,7 @@
 <p>Представления также могут быть вложены в подкаталоги <code>resources/views</code> каталога. Обозначение «точка» может использоваться для ссылки на вложенные представления. Например, если ваше представление хранится в <code>resources/views/admin/profile.blade.php</code>, вы можете вернуть его из одного из маршрутов / контроллеров вашего приложения следующим образом:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token keyword">return</span> <span class="token function">view</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'admin.profile'</span><span class="token punctuation">,</span> <span class="token variable">$data</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Имена каталогов просмотра не должны содержать <code>.</code> символа.</p></p></div>
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Имена каталогов просмотра не должны содержать <code>.</code> символа.</p></p></div>
 </blockquote>
 <p></p>
 <h3 id="creating-the-first-available-view"><a href="#creating-the-first-available-view">Создание первого доступного представления</a></h3>
@@ -149,7 +149,7 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Помните, что если вы создаете нового поставщика услуг, который будет содержать ваши регистрации композитора представления, вам нужно будет добавить поставщика услуг в <code>providers</code> массив в <code>config/app.php</code> файле конфигурации.</p></p></div>
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Помните, что если вы создаете нового поставщика услуг, который будет содержать ваши регистрации композитора представления, вам нужно будет добавить поставщика услуг в <code>providers</code> массив в <code>config/app.php</code> файле конфигурации.</p></p></div>
 </blockquote>
 <p>Теперь, когда мы зарегистрировали композитор, <code>compose</code> метод <code>App\Http\View\Composers\ProfileComposer</code> класса будет выполняться каждый раз <code>profile</code>, когда визуализируется представление. Давайте посмотрим на пример класса композитора:</p>
 <pre class=" language-php"><code class=" language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>

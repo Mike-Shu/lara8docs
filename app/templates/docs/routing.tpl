@@ -92,7 +92,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <p>Или вы можете использовать этот <code>Route::permanentRedirect</code> метод для возврата <code>301</code> кода состояния:</p>
 <pre class=" language-php"><code class=" language-php">Route<span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">permanentRedirect</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'/here'</span><span class="token punctuation">,</span> <span class="token single-quoted-string string">'/there'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>При использовании параметров маршрута в маршрутах перенаправления следующие параметры зарезервированы Laravel и не могут использоваться: <code>destination</code> и <code>status</code>.</p></p></div>
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>При использовании параметров маршрута в маршрутах перенаправления следующие параметры зарезервированы Laravel и не могут использоваться: <code>destination</code> и <code>status</code>.</p></p></div>
 </blockquote>
 <p></p>
 <h3 id="view-routes"><a href="#view-routes">Посмотреть маршруты</a></h3>
@@ -101,7 +101,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 
 Route<span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token function">view</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'/welcome'</span><span class="token punctuation">,</span> <span class="token single-quoted-string string">'welcome'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token single-quoted-string string">'name'</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token single-quoted-string string">'Taylor'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>При использовании параметров маршрута в поле зрения маршрутов, следующие параметры зарезервированы Laravel и не могут быть использованы: <code>view</code>, <code>data</code>, <code>status</code>, и <code>headers</code>.</p></p></div>
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>При использовании параметров маршрута в поле зрения маршрутов, следующие параметры зарезервированы Laravel и не могут быть использованы: <code>view</code>, <code>data</code>, <code>status</code>, и <code>headers</code>.</p></p></div>
 </blockquote>
 <p></p>
 <h2 id="route-parameters"><a href="#route-parameters">Параметры маршрута</a></h2>
@@ -184,7 +184,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     <span class="token keyword">return</span> <span class="token variable">$search</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">where</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'search'</span><span class="token punctuation">,</span> <span class="token single-quoted-string string">'.*'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p> Кодированные косые черты поддерживаются только в пределах последнего сегмента маршрута.</p></p></div>
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p> Кодированные косые черты поддерживаются только в пределах последнего сегмента маршрута.</p></p></div>
 </blockquote>
 <p></p>
 <h2 id="named-routes"><a href="#named-routes">Именованные маршруты</a></h2>
@@ -198,7 +198,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     <span class="token punctuation">[</span>UserProfileController<span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token keyword">class</span><span class="token punctuation">,</span> <span class="token single-quoted-string string">'show'</span><span class="token punctuation">]</span>
 <span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token function">name</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'profile'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p> Имена маршрутов всегда должны быть уникальными.</p></p></div>
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p> Имена маршрутов всегда должны быть уникальными.</p></p></div>
 </blockquote>
 <p></p>
 <h4 id="generating-urls-to-named-routes"><a href="#generating-urls-to-named-routes">Создание URL-адресов для именованных маршрутов</a></h4>
@@ -223,7 +223,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 
 <span class="token comment">// /user/1/profile?photos=yes</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Иногда вам может потребоваться указать значения по умолчанию для всего запроса для параметров URL, например, текущий языковой стандарт. Для этого вы можете использовать <a href="urls#default-values"><code>URL::defaults</code> метод</a>.</p></p></div>
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Иногда вам может потребоваться указать значения по умолчанию для всего запроса для параметров URL, например, текущий языковой стандарт. Для этого вы можете использовать <a href="urls#default-values"><code>URL::defaults</code> метод</a>.</p></p></div>
 </blockquote>
 <p></p>
 <h4 id="inspecting-the-current-route"><a href="#inspecting-the-current-route">Проверка текущего маршрута</a></h4>
@@ -268,7 +268,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Чтобы обеспечить доступность маршрутов поддоменов, вы должны зарегистрировать маршруты поддоменов перед регистрацией маршрутов корневого домена. Это предотвратит перезапись маршрутами корневого домена маршрутов поддоменов, имеющих одинаковый путь URI.</p></p></div>
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Чтобы обеспечить доступность маршрутов поддоменов, вы должны зарегистрировать маршруты поддоменов перед регистрацией маршрутов корневого домена. Это предотвратит перезапись маршрутами корневого домена маршрутов поддоменов, имеющих одинаковый путь URI.</p></p></div>
 </blockquote>
 <p></p>
 <h3 id="route-group-prefixes"><a href="#route-group-prefixes">Префиксы маршрутов</a></h3>
@@ -425,7 +425,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
     <span class="token comment">//</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p> Резервный маршрут всегда должен быть последним маршрутом, зарегистрированным вашим приложением.</p></p></div>
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-red-600 lg:mb-0"><img src="/img/callouts/exclamation.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p> Резервный маршрут всегда должен быть последним маршрутом, зарегистрированным вашим приложением.</p></p></div>
 </blockquote>
 <p></p>
 <h2 id="rate-limiting"><a href="#rate-limiting">Ограничение скорости</a></h2>
@@ -517,7 +517,7 @@ Route<span class="token punctuation">:</span><span class="token punctuation">:</
 <h2 id="cors"><a href="#cors">Совместное использование ресурсов между источниками (CORS)</a></h2>
 <p>Laravel может автоматически отвечать на <code>OPTIONS</code> HTTP-запросы CORS со значениями, которые вы настраиваете. Все параметры CORS можно настроить в <code>config/cors.php</code> файле конфигурации вашего приложения. Эти <code>OPTIONS</code> запросы будут автоматически обрабатываться <code>HandleCors</code>  <a href="middleware">промежуточным слоем</a>, который включен по умолчанию в вашем глобальном стеке промежуточного программного обеспечения. Ваш глобальный стек промежуточного программного обеспечения находится в HTTP-ядре вашего приложения ( <code>App\Http\Kernel</code> ).</p>
 <blockquote>
-    <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Для получения дополнительной информации о заголовках CORS и CORS обратитесь к <a href="https://translate.google.com/website?sl=en&amp;tl=ru&amp;prev=search&amp;u=https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS%23The_HTTP_response_headers">веб-документации MDN по CORS</a>.</p></p></div>
+    <div class="mb-10 mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center callout"><div class="w-20 h-20 mb-6 flex items-center justify-center flex-shrink-0 bg-purple-600 lg:mb-0"><img src="/img/callouts/lightbulb.min.svg" class="opacity-75"></div><p class="mb-0 lg:ml-6"><p>Для получения дополнительной информации о заголовках CORS и CORS обратитесь к <a href="https://translate.google.com/website?sl=en&amp;tl=ru&amp;prev=search&amp;u=https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS%23The_HTTP_response_headers">веб-документации MDN по CORS</a>.</p></p></div>
 </blockquote>
 <p></p>
 <h2 id="route-caching"><a href="#route-caching">Кэширование маршрута</a></h2>
